@@ -18,8 +18,8 @@ export OKD_WORKER_NODE_2_IP=192.168.48.6
 export OKD_WORKER_NODE_2_HOSTNAME=inf-p-ocw02.it.sberbank-service.ru
 
 #OKD Worker Node 3 Configuration
-export OKD_WORKER_NODE_3_IP=192.168.48.7
-export OKD_WORKER_NODE_3_HOSTNAME=inf-p-ocw03.it.sberbank-service.ru
+#export OKD_WORKER_NODE_3_IP=192.168.48.7
+#export OKD_WORKER_NODE_3_HOSTNAME=inf-p-ocw03.it.sberbank-service.ru
 
 #OKD Infra Node 1 Configuration
 export OKD_INFRA_NODE_1_IP=192.168.48.3
