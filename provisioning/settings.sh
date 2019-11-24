@@ -7,23 +7,23 @@ export OKD_VERSION=3.11
 
 #OKD Master Node Configuration
 export OKD_MASTER_IP=192.168.48.4
-export OKD_MASTER_HOSTNAME=INF-P-OCM01
+export OKD_MASTER_HOSTNAME=inf-p-ocm01
 
 #OKD Worker Node 1 Configuration
 export OKD_WORKER_NODE_1_IP=192.168.48.5
-export OKD_WORKER_NODE_1_HOSTNAME=INF-P-OCW01
+export OKD_WORKER_NODE_1_HOSTNAME=inf-p-ocw01
 
 #OKD Worker Node 2 Configuration
 export OKD_WORKER_NODE_2_IP=192.168.48.6
-export OKD_WORKER_NODE_2_HOSTNAME=INF-P-OCW02
+export OKD_WORKER_NODE_2_HOSTNAME=inf-p-ocw02
 
 #OKD Worker Node 3 Configuration
 export OKD_WORKER_NODE_3_IP=192.168.48.7
-export OKD_WORKER_NODE_3_HOSTNAME=INF-P-OCW03
+export OKD_WORKER_NODE_3_HOSTNAME=inf-p-ocw03
 
 #OKD Infra Node 1 Configuration
 export OKD_INFRA_NODE_1_IP=192.168.48.3
-export OKD_INFRA_NODE_1_HOSTNAME=INF-P-OCI01
+export OKD_INFRA_NODE_1_HOSTNAME=inf-p-oci01
 
 #The  below setting will be used to access OKD console https://console.$DOMAIN:$API_PORT"
 #By default we can login using the URL https://console.okd.nip.io:8443
