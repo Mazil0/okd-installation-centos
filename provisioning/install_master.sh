@@ -10,7 +10,7 @@ curl -o ansible.rpm https://releases.ansible.com/ansible/rpm/release/epel-7-x86_
 yum -y --enablerepo=epel install ansible.rpm
 
 # checkout openshift-ansible repository
-[ ! -d openshift-ansible ] && git clone https://github.com/openshift/openshift-ansible.git
+[ ! -d openshift-ansible ] && git clone https://github.com/Mazil0/openshift-ansible.git
 cd openshift-ansible && git fetch && git checkout release-${OKD_VERSION} && cd ..
 
 mkdir -p /etc/origin/master/
